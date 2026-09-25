@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Mi tercera publicación en el blog
 author: Hugo
 description: "Hubo algún que otro tropiezo, pero preguntar en la comunidad me salvó el día."
