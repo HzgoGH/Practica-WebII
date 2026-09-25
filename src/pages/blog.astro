@@ -1,19 +1,12 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Mi Blog de Astro :P";
-
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 ---
-<Header />
-
-  <h1>{pageTitle}</h1>
-  <h1>{pageTitle}</h1>
+<BaseLayout pageTitle={pageTitle}>
   <p>Aqui es donde publicare sobre mi viaje de aprendizaje Astro (o algo asi lol).</p>
-      <ul>
-      <li><a href="/posts/post-1/">Publicacion 1</a></li>
-      <li><a href="/posts/post-2/">Publicacion 2</a></li>
-      <li><a href="/posts/post-3/">Publicacion 3</a></li>
-    </ul>
-  <Footer />
-</body>
+  <ul>
+    <li><a href="/posts/post-1/">Publicacion 1</a></li>
+    <li><a href="/posts/post-2/">Publicacion 2</a></li>
+    <li><a href="/posts/post-3/">Publicacion 3</a></li>
+  </ul>
+</BaseLayout>
